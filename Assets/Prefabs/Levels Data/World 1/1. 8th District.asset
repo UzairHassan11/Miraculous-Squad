@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a250955967025469282cd17cc9d85c8f, type: 3}
+  m_Name: 1. 8th District
+  m_EditorClassIdentifier: Assembly-CSharp::CityOfLevels
+  onBoarding: Unknown Lands
+  icon: {fileID: 21300000, guid: 687d0a271deb84aebb77b9734ab224c1, type: 3}
+  bossAttack2Type: 7
+  ally2Type: 1
+  bossName: Big Mummy
+  levels:
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: be0b5f5644a4944fa83478b9da2b4247, type: 3}
+    levelReward:
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 100
+    - levelRewardType: 2
+      powerUpType: 1
+      rewardAmount: 5
+    levelUpAmount: 2
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 9458f71d989c54bf1a4d78bd068dbde5, type: 3}
+    levelReward:
+    - levelRewardType: 1
+      powerUpType: 0
+      rewardAmount: 100
+    levelUpAmount: 3
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 91e590d6e1f2147b0a34a48136de19f2, type: 3}
+    levelReward:
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 10
+    - levelRewardType: 2
+      powerUpType: 0
+      rewardAmount: 10
+    - levelRewardType: 2
+      powerUpType: 2
+      rewardAmount: 10
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 60e9821428b9f49e082bd83fc52ea9f3, type: 3}
+    levelReward: []
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 2898366050777871130, guid: 15edf52133f134c3c8711e9452fd5b5d, type: 3}
+    levelReward:
+    - levelRewardType: 2
+      powerUpType: 0
+      rewardAmount: 10
+    - levelRewardType: 2
+      powerUpType: 1
+      rewardAmount: 10
+    levelUpAmount: 0
+  grenadeDelay: 2
+  enemyDamage: 1
+  dashingDelay: 2
+  dashingSpeed: 5
+  dashTime: 1
+  spellLineDelay: 2
+  spellsDelay: 2
+  punchDelay: 1
+  enemyTotalHealth: 3
+  spellsCount: 1
+  spellsLinesCount: 1
+  bossAttack1: 5
+  bossAttack2: 5
+  bossCoins: 5
+  bossGems: 2
+  punchingEnemyDR: 5
+  bombingEnemyDR: 15
+  spellEnemyDR: 10
+  spell360EnemyDR: 10
+  spellLineEnemyDR: 12
+  dashingEnemyDR: 12
+  bigEnemyDR: 0
+  bossEnemyDR: 5
+  punchingEnemyAR: 2
+  bombingEnemyAR: 7
+  spellEnemyAR: 8
+  spell360EnemyAR: 8
+  spellLineEnemyAR: 6
+  dashingEnemyAR: 10
+  bigEnemyAR: 0
+  bossEnemyAR: 1
+  punchingEnemyHealth: 2.2
+  bombingEnemyHealth: 3.5
+  spellEnemyHealth: 2.5
+  spell360EnemyHealth: 2.5
+  spellLineEnemyHealth: 2.5
+  dashingEnemyHealth: 2
+  bigEnemyHealth: 0
+  bossEnemyHealth: 30

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a250955967025469282cd17cc9d85c8f, type: 3}
+  m_Name: 4. Owl
+  m_EditorClassIdentifier: Assembly-CSharp::CityOfLevels
+  onBoarding: Undead Countryside
+  icon: {fileID: 21300000, guid: 728c1b197bf7e40caa28e20391d45e98, type: 3}
+  bossAttack2Type: 5
+  ally2Type: 4
+  bossName: Skeleton King
+  levels:
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 4a69351b403da435fb969af8900129a2, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 461fadc29f6e14bf4bd9c202e648393b, type: 3}
+    levelReward:
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 500
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: ded0a7600a5524550a5cdea913dcdeaf, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 843155b187d804d97b2925a1524a0880, type: 3}
+    levelReward: []
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 860d2b6ada81e4355b8c6790e1089981, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: a7e5a99166e824411a1e1d8d96c4ec25, type: 3}
+    levelReward:
+    - levelRewardType: 2
+      powerUpType: 2
+      rewardAmount: 1
+    - levelRewardType: 2
+      powerUpType: 1
+      rewardAmount: 2
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 266
+    - levelRewardType: 1
+      powerUpType: 0
+      rewardAmount: 5
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 55e397be2efbb460c879e3235fad1cb0, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 4b752fefd2fd543f8900fc5c02a7f169, type: 3}
+    levelReward: []
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: bfbeebcd5f5634c598b8a99f66b7f2bc, type: 3}
+    levelReward: []
+    levelUpAmount: 0
+  grenadeDelay: 2
+  enemyDamage: 1
+  dashingDelay: 2
+  dashingSpeed: 5
+  dashTime: 1
+  spellLineDelay: 4
+  spellsDelay: 2
+  punchDelay: 1
+  enemyTotalHealth: 3
+  spellsCount: 3
+  spellsLinesCount: 1
+  bossAttack1: 8
+  bossAttack2: 6
+  bossCoins: 12
+  bossGems: 7
+  punchingEnemyDR: 8
+  bombingEnemyDR: 15
+  spellEnemyDR: 12
+  spell360EnemyDR: 12
+  spellLineEnemyDR: 20
+  dashingEnemyDR: 15
+  bigEnemyDR: 10
+  bossEnemyDR: 5
+  punchingEnemyAR: 2
+  bombingEnemyAR: 8
+  spellEnemyAR: 10
+  spell360EnemyAR: 10
+  spellLineEnemyAR: 15
+  dashingEnemyAR: 12
+  bigEnemyAR: 2
+  bossEnemyAR: 1
+  punchingEnemyHealth: 3.5
+  bombingEnemyHealth: 6
+  spellEnemyHealth: 5
+  spell360EnemyHealth: 3.5
+  spellLineEnemyHealth: 4.5
+  dashingEnemyHealth: 4.5
+  bigEnemyHealth: 10
+  bossEnemyHealth: 40

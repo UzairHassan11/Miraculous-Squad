@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a250955967025469282cd17cc9d85c8f, type: 3}
+  m_Name: 3. School
+  m_EditorClassIdentifier: Assembly-CSharp::CityOfLevels
+  onBoarding: Library
+  icon: {fileID: 21300000, guid: c0b356c967f7f423f9ef574a1581386f, type: 3}
+  bossAttack2Type: 4
+  ally2Type: 5
+  bossName: Skull Loard
+  levels:
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 975ae04e8dd174745991c437c167c1c0, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 461fadc29f6e14bf4bd9c202e648393b, type: 3}
+    levelReward:
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 300
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: cdf35e45d713441719ec4d1656c9d838, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: b157339b22488458e8939cadce93f6e4, type: 3}
+    levelReward: []
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 154a17a8a6f1445d0a4ef8bc14eb984a, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 6df72fff680394d0dba348525b482e16, type: 3}
+    levelReward:
+    - levelRewardType: 2
+      powerUpType: 2
+      rewardAmount: 2
+    - levelRewardType: 2
+      powerUpType: 1
+      rewardAmount: 1
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 272
+    - levelRewardType: 1
+      powerUpType: 0
+      rewardAmount: 9
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 6f5aea8029e1e492088bf4e429f8cb12, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 75e59f70377614d8ca93ff3d848b460d, type: 3}
+    levelReward: []
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: aad65e8a5be4d4cd3bd1879b33fcdcc3, type: 3}
+    levelReward:
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 259
+    - levelRewardType: 2
+      powerUpType: 2
+      rewardAmount: 2
+    - levelRewardType: 2
+      powerUpType: 0
+      rewardAmount: 2
+    - levelRewardType: 1
+      powerUpType: 0
+      rewardAmount: 9
+    levelUpAmount: 0
+  grenadeDelay: 2
+  enemyDamage: 1
+  dashingDelay: 2
+  dashingSpeed: 5
+  dashTime: 1
+  spellLineDelay: 2
+  spellsDelay: 2
+  punchDelay: 1
+  enemyTotalHealth: 3
+  spellsCount: 2
+  spellsLinesCount: 1
+  bossAttack1: 8
+  bossAttack2: 6
+  bossCoins: 10
+  bossGems: 5
+  punchingEnemyDR: 6
+  bombingEnemyDR: 15
+  spellEnemyDR: 12
+  spell360EnemyDR: 12
+  spellLineEnemyDR: 8
+  dashingEnemyDR: 15
+  bigEnemyDR: 10
+  bossEnemyDR: 5
+  punchingEnemyAR: 2
+  bombingEnemyAR: 8
+  spellEnemyAR: 10
+  spell360EnemyAR: 10
+  spellLineEnemyAR: 12
+  dashingEnemyAR: 12
+  bigEnemyAR: 2
+  bossEnemyAR: 1
+  punchingEnemyHealth: 3.5
+  bombingEnemyHealth: 6
+  spellEnemyHealth: 5
+  spell360EnemyHealth: 3.5
+  spellLineEnemyHealth: 4.5
+  dashingEnemyHealth: 4.5
+  bigEnemyHealth: 10
+  bossEnemyHealth: 40

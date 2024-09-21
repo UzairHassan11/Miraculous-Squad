@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045271559959",
+    "project_id": "doggo-squad---nebula",
+    "storage_bucket": "doggo-squad---nebula.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045271559959:android:e464baf1398b2a0e240152",
+        "android_client_info": {
+          "package_name": "com.studionebula.doggosquad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBspKXPGsLJIga0USHk7buuqRzu6fnw_4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

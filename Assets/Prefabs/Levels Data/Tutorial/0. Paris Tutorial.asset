@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a250955967025469282cd17cc9d85c8f, type: 3}
+  m_Name: 0. Paris Tutorial
+  m_EditorClassIdentifier: Assembly-CSharp::CityOfLevels
+  onBoarding: Welcome to the City
+  icon: {fileID: 21300000, guid: 321d7456a5c9c4dda9da18c5d226f427, type: 3}
+  bossAttack2Type: 0
+  ally2Type: 0
+  bossName: 
+  levels:
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 386f2d26d848046dc8a38024cfb96a15, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 6725520969280154884, guid: 8a07826cc84284b038eee76aa83cfc3c, type: 3}
+    levelReward: []
+    levelUpAmount: 0
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 6725520969280154884, guid: 4ccfeca185170412aa017eb024827de0, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 2bcfae5f5ca694fe7b77fcf063dc0f8f, type: 3}
+    levelReward:
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 10
+    - levelRewardType: 2
+      powerUpType: 0
+      rewardAmount: 1
+    levelUpAmount: 1
+  - levelSections:
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 6725520969280154884, guid: d49a0388f1e0f4cdfbb1bb7eb1c13e56, type: 3}
+    - startDialogue: {fileID: 0}
+      endDialogue: {fileID: 0}
+      platform: {fileID: 3742948431066630066, guid: 9f6e6c2ae45b549deb2678c837da40ba, type: 3}
+    levelReward:
+    - levelRewardType: 0
+      powerUpType: 0
+      rewardAmount: 500
+    levelUpAmount: 0
+  grenadeDelay: 2
+  enemyDamage: 1
+  dashingDelay: 0
+  dashingSpeed: 0
+  dashTime: 0
+  spellLineDelay: 2
+  spellsDelay: 2
+  punchDelay: 1
+  enemyTotalHealth: 3
+  spellsCount: 1
+  spellsLinesCount: 1
+  bossAttack1: 5
+  bossAttack2: 5
+  bossCoins: 0
+  bossGems: 0
+  punchingEnemyDR: 0
+  bombingEnemyDR: 0
+  spellEnemyDR: 6
+  spell360EnemyDR: 0
+  spellLineEnemyDR: 0
+  dashingEnemyDR: 0
+  bigEnemyDR: 0
+  bossEnemyDR: 0
+  punchingEnemyAR: 2
+  bombingEnemyAR: 0
+  spellEnemyAR: 5
+  spell360EnemyAR: 0
+  spellLineEnemyAR: 0
+  dashingEnemyAR: 0
+  bigEnemyAR: 0
+  bossEnemyAR: 0
+  punchingEnemyHealth: 3
+  bombingEnemyHealth: 0
+  spellEnemyHealth: 3
+  spell360EnemyHealth: 0
+  spellLineEnemyHealth: 0
+  dashingEnemyHealth: 0
+  bigEnemyHealth: 0
+  bossEnemyHealth: 0
